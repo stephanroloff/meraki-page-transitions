@@ -1,0 +1,18 @@
+@import './general/fade-in.scss';
+@import './general/fade-out.scss';
+
+@import './general/fade-in-from-left.scss';
+
+
+
+
+//BORRAR LUEGO DE LOS TESTS
+main.main-container{
+    h1.wp-block-heading{
+        font-size: 155px !important;
+    }
+}
+
+.custom-logo{
+    display: none;
+}

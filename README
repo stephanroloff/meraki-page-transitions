@@ -1,0 +1,14 @@
+Requisitos
+
+Plugin ACF
+
+Variables
+en InitialStyles.php hay 2 variables:
+-tiempo que dura la transition (actualmente 0.3)
+-el nombre de la animation a ejecutar (actualmente colorCurrentPage_to_colorPageWeAreGoingTo)
+
+en variables.js hay 5 variables:
+mirar este archivo para mas detalles
+
+TODOS
+-Considerar aspectos de seguridad en archivos php (formularios en Gutenberg editor por ejemplo)

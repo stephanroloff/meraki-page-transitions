@@ -1,0 +1,19 @@
+/* Define la animación de fade-in */
+@keyframes fadeIn {
+    from {
+    opacity: 0; /* La opacidad inicial es 0 (invisible) */
+    }
+    to {
+    opacity: 1; /* La opacidad final es 1 (visible) */
+    }
+}
+
+.main-container{
+    opacity: 0;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s forwards; 
+}
+  
+  
