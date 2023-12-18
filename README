@@ -1,6 +1,8 @@
 Requisitos
 
 Plugin ACF
+-Instalar y Activar Plugin
+-Ir ACF > Field Groups > Sync available > Local JSON (Abajo deberia aparecer import al hacer hover)
 
 Variables
 en InitialStyles.php hay 2 variables:
@@ -11,4 +13,6 @@ en variables.js hay 5 variables:
 mirar este archivo para mas detalles
 
 TODOS
--Considerar aspectos de seguridad en archivos php (formularios en Gutenberg editor por ejemplo)
+-Considerar aspectos de seguridad en archivos php (formularios en Gutenberg editor por ejemplo) (quizá usar ACF?)
+-Traduccion
+-Documentacion
