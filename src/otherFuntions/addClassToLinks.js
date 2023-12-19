@@ -16,7 +16,7 @@ slugColorRelationship.forEach(element =>{
     allLinks.forEach(link => {
         let url = link.href.toLowerCase();
 
-        if(url.includes(slug)){
+        if(url == slug){
             let newClass = `next-page-${element[1]}`
             link.classList.add(newClass);
         }

@@ -21,8 +21,9 @@ class MenuClassOnSave {
             if(!$result){
                 continue;
             }
+            $homepage_url = get_permalink($page->ID);
             
-            array_push($slugColorRelationship, [$page->post_name, $result]);
+            array_push($slugColorRelationship, [$homepage_url, $result]);
         }
         
         wp_localize_script('my-script', 'slugColorRelationship', $slugColorRelationship);

@@ -44,7 +44,6 @@ setTimeout(function(){
 //Esto hace que el item clickeado del menu si marca inmediatamente y no recien cuando cargue la nueva pagina.
 let menuHeader = document.querySelectorAll(menuLiClass);
 menuHeader.forEach(element =>{
-    console.log('menuHEADER', element.childNodes[0]);
     element.addEventListener('click', ()=>{
         menuHeader.forEach(el =>{
             if(el.classList.contains('current-menu-item')){
